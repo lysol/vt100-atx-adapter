@@ -1,6 +1,8 @@
 VT100 ATX Adapter
 -----------------
 
+![Board Render](adapter.jpg)
+
 Like others with DEC VT10X terminals, the power supply board in mine
 wasn't working. I've started off with bbenchoff's (here)[https://github.com/bbenchoff/VT100Adapter],
 but had to modify it to make it work with my VT105, which is essentially
@@ -31,9 +33,4 @@ adapter.
 
 For now the NMT0572SC seems to be widely available, and a
 convenient option.
-
-For silly reasons I have a large rectangle on both F.MASK
-and B.MASK, making it a solder mask-less board. Delete them
-in KiCAD if you'd like a reasonable looking solder mask,
-as I designed it with a normal solder mask to begin with.
 
