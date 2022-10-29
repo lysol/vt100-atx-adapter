@@ -2,13 +2,9 @@ VT100 ATX Adapter
 -----------------
 
 Like others with DEC VT10X terminals, the power supply board in mine
-wasn't working. I've started off with bbenchoff's here:
-
-https://github.com/bbenchoff/VT100Adapter
-
-But the pinout is just flat wrong, at least for my VT105, and
-according to the technical documentation for the VT100,
-which is widely available on Bitsavers.
+wasn't working. I've started off with bbenchoff's (here)[https://github.com/bbenchoff/VT100Adapter],
+but had to modify it to make it work with my VT105, which is essentially
+a stock VT100 with Advanced Video and Waveform Graphics boards.
 
 This version corrects the 12V/GND pin placement on the edge
 connector (12V GND 12V GND, rather than 12V GND GND GND),
@@ -16,7 +12,8 @@ and uses a soon-to-be obsolete DC-DC converter
 for converting +5V to negative voltages, specifically -24V,
 which is in tolerance for the NVRAM for the VT10X terminals,
 which is absolutely required for the self-check to even complete
-on startup.
+on startup. Turns out weird negative supplies are not all
+that common these days.
 
 I've also corrected the edge trace pitch, as bbenchoff's,
 while still functional, is slightly off and some of the pins
