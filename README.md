@@ -34,3 +34,4 @@ adapter.
 For now the NMT0572SC seems to be widely available, and a
 convenient option.
 
+[Bill of Materials](VT100_ATX_DCDC.csv)

@@ -1,0 +1,6 @@
+Reference, Value, Footprint, Datasheet, Digi-Key Part Number, Manufacturer, Part Number
+"C1","1uF 50V","Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm","https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf","445-173579-1-ND","TDK Corporation","FG28X5R1H105KRT06"
+"J1","Power Switch","Connectors:SCREWTERMINAL-5MM-2","https://www.we-online.com/katalog/datasheet/691137710002.pdf","732-10955-ND","Würth Elektronik","691137710002"
+"J2","ATX-24","Connectors:ATX24_RIGHT_ANGLE","https://www.molex.com/pdm_docs/sd/039301240_sd.pdf","WM1362-ND","Molde","0039301240"
+"R1","6.8ohm","Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P7.62mm_Vertical","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773285&DocType=DS&DocLang=English","A137446-ND","TE Connectivity","SQPW56R8J"
+"U1","NMT0572SC","VT105_Library:NMT0572SC","https://www.murata.com/products/productdata/8807031439390/kdc-nmt.pdf","811-1583-5-ND","Murata Power Solutions","NMT0572SC"
