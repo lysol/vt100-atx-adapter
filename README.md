@@ -4,7 +4,7 @@ VT100 ATX Adapter
 ![Board Render](adapter.jpg)
 
 Like others with DEC VT10X terminals, the power supply board in mine
-wasn't working. I've started off with bbenchoff's (here)[https://github.com/bbenchoff/VT100Adapter],
+wasn't working. I've started off with bbenchoff's [here](https://github.com/bbenchoff/VT100Adapter),
 but had to modify it to make it work with my VT105, which is essentially
 a stock VT100 with Advanced Video and Waveform Graphics boards.
 
