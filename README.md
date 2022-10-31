@@ -10,28 +10,15 @@ a stock VT100 with Advanced Video and Waveform Graphics boards.
 
 This version corrects the 12V/GND pin placement on the edge
 connector (12V GND 12V GND, rather than 12V GND GND GND),
-and uses a soon-to-be obsolete DC-DC converter
-for converting +5V to negative voltages, specifically -24V,
-which is in tolerance for the NVRAM for the VT10X terminals,
-which is absolutely required for the self-check to even complete
-on startup. Turns out weird negative supplies are not all
-that common these days.
+and uses a 555 circuit to generate -23V from the -12V ATX rail.
+The VT100 Basic Video board uses the potential between +12V
+and the -23V to generate the -35V supply for the ER1400
+NVRAM. This is mostly possible because of the extremely low (10mA)
+current maximum of the original -23V line, and the +/- 8%
+tolerance of the -35V requirement for said IC.
 
 I've also corrected the edge trace pitch, as bbenchoff's,
 while still functional, is slightly off and some of the pins
 are close to the edge of the traces.
-
-You could still use this board with a linear supply setup
-if you can't source the NMT0572SC; you'll need to supply
-your own step-down transformer and rectifier, but those
-sorts of circuits are extremely simple and widely available
-on the internet, and bbenchoff's adapter is a good reference
-for such a design. The current draw of a VT100's -23V rail
-is specified as 10mA, so you have a lot of rectifiers that
-would work, not necessarily the one in the BOM for the other
-adapter.
-
-For now the NMT0572SC seems to be widely available, and a
-convenient option.
 
 [Bill of Materials](VT100_ATX_DCDC.csv)
