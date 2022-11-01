@@ -1,3 +1,5 @@
+Warning: This is still a work in progress and likely won't work yet
+
 VT100 ATX Adapter
 -----------------
 
