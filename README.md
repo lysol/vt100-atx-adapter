@@ -24,3 +24,4 @@ while still functional, is slightly off and some of the pins
 are close to the edge of the traces.
 
 [Bill of Materials](VT100_ATX_DCDC.csv)
+[Schematic](VT100_ATX_DCDC.pdf)
