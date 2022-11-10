@@ -1066,7 +1066,7 @@
     (uuid 62ce2ece-411f-4b83-823f-8bc0ce90dbf8)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAGkAAABpCAIAAAC24JptAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-      AAsSAAALEgHS3X78AAAgAElEQVR4nIS8545kWZImZmZHXeEqVKrqyuqumuG04AguMbtLYrBDicWA
+      AArwAAAK8AFCrDSYAAAgAElEQVR4nIS8545kWZImZmZHXeEqVKrqyuqumuG04AguMbtLYrBDicWA
       CxLgK/AZ+J+PRIAEMQCXP2Y5xOxszwzY1aKqqytVZUZGREa49quOMOOP4+4ZpZoHjih3L88r7Jr4
       7DOzg//L//Q/iwgAiMjxDQAMw2CttdYys/eembXW1lpSqSiKxWKx2WyKoogxNk1jjBmPx0opEbm4
       uPjkk0+UUl3XjUYjQrfZbF68eHF9fX1xcfHTn/5Ua311dTWbzZh5PB5rrdu21VqnlN6+fUtFpbWe
@@ -1368,7 +1368,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid a1cc520f-7ad1-4c7d-b83f-a7f10eec6e14)
   )
-  (text "Totally possible the regulator is unneeded here once the VT100\nloads the -23V rail, but when I tested the unregulated output\nwith my setup, the converter was putting out close to -27V.\nMy 3.3V rail was only a little too spicy: about 3.4V, so I think\nthe regulation is required, which is a bummer because there are\nnot a lot of parts for regulating -24V and I am not Mr. EE\nenough to know which linear regulators can be used in the way\nI need here. This regulator seems to be relatively common\nso should be fine???? idk"
+  (text "DC-DC converter takes in 3.3V from the ATX rail,\nputs out about -27V. Regulator lands it around -23.5,\nwhich may drop a little closer to the -23V the circuit\nexpects (but can tolerate about a volt or two in either\ndirection)"
     (at 45.72 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1567443-ed2b-48db-bdd9-ff6b9f32dae9)
