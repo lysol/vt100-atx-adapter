@@ -1,4 +1,4 @@
-Warning: This is still a work in progress and likely won't work yet
+Warning: This is still a work in progress and works for me, but possibly not you
 
 VT100 ATX Adapter
 -----------------
