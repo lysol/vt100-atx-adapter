@@ -1,4 +1,8 @@
-Warning: This is still a work in progress and works for me, but possibly not you
+Warning: This part worked for me, but there may be variations in DEC VT100 terminals or
+terminals based on the VT100 (like the VT105, which I have). I've attempted to accomodate
+what differences I may have encountered in research but definitely consult your model's
+documentation to ensure its compatibility before building one blindly
+and frying your terminal.
 
 VT100 ATX Adapter
 -----------------
